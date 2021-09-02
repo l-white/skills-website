@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colors</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #002e5b;
+                text-align: center;
+                max-width: 900px;
+                margin: 0 auto;
+                background: rgb(210, 238, 247);
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                list-style: none;
+                background: #002e5b;
+                
+            }
+
+            .flex-item {
+                padding: 5px;
+                width: 200px;
+                height: 150px;
+                margin: 10px;
+                line-height: 150px;
+                color: white;
+                font-weight: bold;
+                font-size: 2em;
+                text-align: center;
+            }
+
+            footer {
+                margin-bottom: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>DevOps Engineer</h1>
+        <p>These are the skills I am working on acquiring and improving upon in order to become a great DevOps engineer.</p>
+        <h2>Programming &amp; Scripting</h2>
+        <ul class="container">
+            <li class="flex-item" style="background-color: darkgreen;">Python</li>
+            <li class="flex-item" style="background-color: darkgreen;">Go</li>
+            <li class="flex-item" style="background-color: darkgreen;">C/C++</li>
+            <li class="flex-item" style="background-color:darkgreen;">JavaScript</li>
+            <li class="flex-item" style="background-color: darkgreen;">Rust</li>
+        </ul>
+        <h2>Scripting</h2>
+        <ul class="container">
+            <li class="flex-item" style="background-color:rgb(112, 30, 30);">Bash</li>
+            <li class="flex-item" style="background-color: rgb(112, 30, 30);">PowerShell</li>
+            <li class="flex-item" style="background-color: rgb(112, 30, 30);">Perl</li>
+        </ul>
+        <h2>Server Administration & Performance Monitoring</h2>
+        <ul class="container">
+            <li class="flex-item" style="background-color: burlywood;">Linux</li>
+            <li class="flex-item" style="background-color: burlywood;">IIS</li>
+            <li class="flex-item" style="background-color: burlywood;">Elastic Stack</li>
+        </ul>
+        
+        <h2>Databases</h2>
+        <ul class="container">
+            <li class="flex-item" style="background-color: tomato;">PostgreSQL</li>
+            <li class="flex-item" style="background-color: tomato;">MongoDB</li>
+            </ul>
+        <ul class="container"></ul>
+        <h2>Cloud</h2>
+        <ul class="container">
+            <li class="flex-item" style="background-color: rgb(146, 151, 156);">AWS</li>
+            <li class="flex-item" style="background-color: rgb(146, 151, 156);">Azure</li>
+            <li class="flex-item" style="background-color: rgb(146, 151, 156);">Docker</li>
+            <li class="flex-item" style="background-color: rgb(146, 151, 156);">Kubernetes</li>
+        </ul>
+        <h2>Infrastructure &amp; Secure Pipelines</h2>
+        <ul class="container">
+            <li class="flex-item" style="background-color: rgb(47, 163, 152);">Puppet</li>
+            <li class="flex-item" style="background-color: rgb(47, 163, 152);">Chef</li>
+            <li class="flex-item" style="background-color: rgb(47, 163, 152);">Ansible</li>
+            <li class="flex-item" style="background-color: rgb(47, 163, 152);">CI/CD</li>
+            <li class="flex-item" style="background-color: rgb(47, 163, 152);">DevSecOps</li>
+            <li class="flex-item" style="background-color: rgb(47, 163, 152);">Nagios</li>
+        </ul>
+        <footer>Copyright 2021 By Laura White</footer>
+        <script>
+            let today = new Date().toISOString().slice(0, 10);
+        </script>
+    </body>
+</html>
